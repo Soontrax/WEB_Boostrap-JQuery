@@ -1,0 +1,21 @@
+html,body{
+	background-image: url(../img/espacial.png);
+	background-repeat: no-repeat;
+	background-position: center center ;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	overflow-x: hidden;
+	line-height: 1.5;
+    font-family: 'Magra';
+    color: whitesmoke;
+}
+
+.front img{
+	position: absolute;
+	z-index: 333;
+}
+
+.back img{
+	position: absolute;
+}

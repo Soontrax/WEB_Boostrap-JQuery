@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>Tennis Warehouse</title>
+<link>rawgit de la pagina</link>
+<description>Tu sitio Web favorito sobre el mundo del tenis</description>
+
+<!-- Primera Noticia-->
+<item>
+<toptitle>Roma</toptitle>
+<title>Nadal reconquista Roma</title>
+<link>pagina1.html</link>
+<description>El mallorquín resuelve una situación límite en la final ante Zverev, por delante hasta que el agua forzó un doble parón. Al final, 6-1, 1-6 y 6-3 (en 2h 09m), y el número uno de nuevo en manos del mallorquín</description>
+<image>img/nadal.jpg</image>
+<date>20/05/2018</date>
+</item>
+<!-- Primera Noticia-->
+
+<!-- Segunda Noticia-->
+<item>
+<toptitle>Roma</toptitle>
+<title>Djokovic y Nadal se enfrentarán en Roma 371 días después</title>
+<link>pagina2.html</link>
+<description>Había que remontarse al 13 de marzo de 2017, en las semifinales del Mutua Madrid Open, para encontrar el último enfrentamiento entre Rafael Nadal y Novak Djokovic, el más repetido de la historia del tenis. Mañana, en la penúltima ronda del Masters 1.000 de Roma, a partir de las 14.30 horas, se reencontrarán 371 días después para sumar el capítulo 51 de su rivalidad.</description>
+<image>img/djokovic.jpg</image>
+<date>17/05/2018</date>
+</item>
+<!-- Segunda Noticia-->
+
+<!-- Tercera Noticia-->
+<item>
+<toptitle>Madrid Open</toptitle>
+<title>El nuevo Campeón del MADRID OPEN Alexander Zverev</title>
+<link>pagina3.html</link>
+<description>Con solo 21 años, el número tres liquida a Thiem en la final de la Caja Mágica (doble 6-4, en 1h 18m) y eleva su tercer Masters 1000 sin ceder un solo set ni un servicio en sus cinco partidos en el torneo</description>
+<image>img/Zverev.jpg</image>
+<date>05/05/2018</date>
+</item>
+<!-- Tercera Noticia-->
+
+<!-- Quarta Noticia-->
+<item>
+<toptitle>Roma</toptitle>
+<title>Muguruza cae en la madrugada romana</title>
+<link>pagina4.html</link>
+<description>La número tres desperdicia dos bolas de partido y un 4-0 favorable en el segundo parcial ante Gavrilova, vencedora tras un duelo maratoniano (5-7, 6-2 y 7-6, en 3h 08m) que se cerró en un horario marciano</description>
+<image>img/muguruza.jpg</image>
+<date>01/05/2018</date>
+</item>
+<!-- Quarta Noticia-->
+
+<!-- Quinta Noticia-->
+<item>
+<toptitle>Documental</toptitle>
+<title>El duelo de dos gigantes solitarios</title>
+<link>pagina5.html</link>
+<description>La película ‘Borg McEnroe’ recrea la agónica final en la que se enfrentaron los dos grandes tenistas en Wimbledon, en 1980</description>
+<image>img/mcroe.jpg</image>
+<date>21/04/2018</date>
+</item>
+<!-- Quinta Noticia-->
+
+<!-- Sexta Noticia-->
+<item>
+<toptitle>Copa Davis</toptitle>
+<title>Ferrer da a España el pase a semifinales de la Copa Davis</title>
+<link>pagina6.html</link>
+<description>El número dos del conjunto español vence 7-6, 3-6, 7-6, 4-6, 7-5 a Kohlschreiber en un partido agónico de casi cinco horas</description>
+<image>img/ferrer.jpg</image>
+<date>17/04/2018</date>
+</item>
+<!-- Sexta Noticia-->
+
+<!-- Septima Noticia-->
+<item>
+<toptitle>Miami</toptitle>
+<title>Federer cede en Miami y Nadal recupera el número uno</title>
+<link>pagina7.html</link>
+<description>El suizo debía alcanzar al menos los cuartos para retener el trono, pero cae ante el joven Kokkinakis en su estreno (3-6, 6-3 y 7-6) y anticipa que no participará en la gira sobre tierra por segundo año seguido</description>
+<image>img/federer.jpg</image>
+<date>12/04/2018</date>
+</item>
+<!-- Septima Noticia-->
+
+<!-- Octava Noticia-->
+<item>
+<toptitle>Miami</toptitle>
+<title>Del Potro se impone a Federer en la final de Indian Wells</title>
+<link>pagina8.html</link>
+<description>El argentino propicia la primera derrota del suizo en 2018 tras un apasionante encuentro (6-4, 6-7 y 7-6)</description>
+<image>img/delpotro.jpeg</image>
+<date>06/04/2018</date>
+</item>
+<!-- Octava Noticia-->
+
+<!-- Novena Noticia-->
+<item>
+<toptitle>Rotterdamm</toptitle>
+<title>Federer, nuevo número uno, desafía al tiempo</title>
+<link>pagina9.html</link>
+<description>Con las semifinales de Rotterdam, el suizo (36 años y 195 días) supera a Nadal en el ‘ranking’ y desbanca al estadounidense Agassi (33 años y 131 días) como el gobernante más veterano de la historia del tenis</description>
+<image>img/federer1.jpg</image>
+<date>04/04/2018</date>
+</item>
+<!-- Novena Noticia-->
+
+<!-- Decima Noticia-->
+<item>
+<toptitle>Marbella</toptitle>
+<title>Manolo Santana desmiente los rumores sobre su estado de salud: “Me encuentro perfectamente”</title>
+<link>pagina10.html</link>
+<description>El tenista, de 79 años, ha sido hospitalizado en un hospital de Marbella para ser operado de una hernia inguinal este viernes</description>
+<image>img/santana.jpg</image>
+<date>03/04/2018</date>
+</item>
+<!-- Decima Noticia-->
+
+<!-- Undecima Noticia-->
+<item>
+<toptitle>Madre Bautista</toptitle>
+<title>Fallece Esther Agut, madre de Roberto Bautista</title>
+<link>pagina11.html</link>
+<description>El tenis está de luto inesperado tras conocerse la noticia de la muerte de la madre de Roberto Bautista. Esther Agut fallecía este lunes de manera repentina en Castellón de la Plana, sin conocerse aún las causas del fallecimiento. Un palo muy duro para el número 14 del mundo, a pocos días del comienzo de Roland Garros. Desde la redacción de Tennis Warehouse queremos mandar nuestro más sentido pésame a Roberto y a toda su familia. Descanse en paz.</description>
+<image>img/robertobautista.jpg</image>
+<date>02/04/2018</date>
+</item>
+<!-- Undecima Noticia-->
+
+<!-- Doceava Noticia-->
+<item>
+<toptitle>Conde Godó</toptitle>
+<title>¿Quién puede vencer a Rafael Nadal en arcilla?</title>
+<link>pagina12.html</link>
+<description>En otro brinco a un palmarés sin igual sobre tierra, Rafa Nadal ya ha superado el ‘10’ en sus notas deportivas gracias a sendos ‘11’ obtenidos en Montecarlo y Barcelona, 11 títulos que intentará repetir en Roland Garros.</description>
+<image>img/nadal-godo.jpg</image>
+<date>30/03/2018</date>
+</item>
+<!-- Doceava Noticia-->
+</channel>
+</rss>
