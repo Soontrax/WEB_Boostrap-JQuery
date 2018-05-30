@@ -1,11 +1,5 @@
 {
   "News" : [ {
-    "Date" : "20/05/2018",
-    "Description" : "El mallorquín resuelve una situación límite en la final ante Zverev, por delante hasta que el agua forzó un doble parón. Al final, 6-1, 1-6 y 6-3 (en 2h 09m), y el número uno de nuevo en manos del mallorquín",
-    "Image" : "img/nadal.jpg",
-    "Subtitle" : "Nadal reconquista Roma",
-    "Title" : "Roma"
-  }, {
     "Date" : "17/05/2018",
     "Description" : "Había que remontarse al 13 de marzo de 2017, en las semifinales del Mutua Madrid Open, para encontrar el último enfrentamiento entre Rafael Nadal y Novak Djokovic, el más repetido de la historia del tenis. Mañana, en la penúltima ronda del Masters 1.000 de Roma, a partir de las 14.30 horas, se reencontrarán 371 días después para sumar el capítulo 51 de su rivalidad.",
     "Image" : "img/djokovic.jpg",
