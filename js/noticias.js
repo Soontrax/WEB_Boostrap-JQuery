@@ -6,18 +6,26 @@ function myFunction() {
   if ($(window).scrollTop() == $(document).height() - $(window).height()) {
     $($('.news')[$('.news:visible').length]).css('display', 'block');
   }
+
+  //Funcion que sirve para hacer cargar el scroll bar indicator
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
+$("#mas").click(function(){
+  cargarnoticias();
+});
+
 //Función de Preloader de Página
 window.onload = function () {
-  var contenedor = document.getElementById('contenedor_carga');
+  var contenedor = $("#contenedor_carga");
 
-  contenedor.style.visibility = 'hidden';
-  contenedor.style.opacity = '0';
+  $(contenedor).css("visibility", "hidden");
+  $(contenedor).css("opacity", "0");
+  
+
   $.ajax({
     datatype: "jsonp",
     type: "GET",
@@ -119,6 +127,63 @@ window.onload = function () {
             $($('.news')[i]).css('display', 'block');
           }
         }
+      });
+      function cargarnoticias(){
+        $.ajax({
+          datatype: "jsonp",
+          type: "GET",
+          data: {},
+          url: "https://rawgit.com/Soontrax/WEB_Boostrap-JQuery/master/json/SegundasNoticias.json",
+          success: function (data) {
+            console.log(data);
+            var html = "";
+            $.each(data.News, function (idx, item) {
+              //Añadimos las etiquetas para cada 2 objetos que pasen
+              if (idx % 2 == 0) {
+                html += '</br><div style="display:none" class="news row">';
+              }
+              html += '<div class="col-md-4">' +
+                '<div class="thumbnail">' +
+                '<div class="caption">' +
+                '<div class="ribbon">' +
+                '<span>' +
+                '<span>' + item.Title + '</span>' +
+                '</span>' +
+                '</div>' +
+                '<h3 class="text-align: center">' +
+                '<a href="pagina1.html?index=' + idx + '">' +
+                '<b>' + item.Subtitle + '</b>' +
+                '</a>' +
+                '</h3>' +
+                '<img src="' + item.Image + '" class="img-responsive">' +
+                '</div>' +
+                '<div class="caption">' +
+                '<p class="text-justify">' + item.Description + '</p>' +
+                '<p class="text-right">' +
+                '<em>' + item.Date + '</em>' +
+                '</p>' +
+                '</div>' +
+                '</div>' +
+                '</div>';
+              //Cerramos la etiqueta del div al final de cada 2 objetos en el JSON
+              if (idx % 2 != 0) {
+                html += '</div>';
+              }
+            });
+            if (data.News.length % 2 != 0) {
+              html += '</div>';
+            }
+      
+            $('#container').append(html);
+      
+            for (var i = 0; i <= 2; i++) {
+              $($('.news')[i]).css('display', 'block');
+            }
+          }
+        });
+      }
+      $("#mas").click(function(){
+        cargarnoticias();
       });
     }
   });
