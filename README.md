@@ -16,20 +16,33 @@ y tendrán una composición de cada 2 noticias
 
 # Versiones(Actualizaciones)
 
-## 1.0
-Video de Presentación en la página de inicio
+## 1.6
+Poner un boton en el cual carguen solo las noticias al darle al boton cargar noticias y cuando se descative el boton que carguen las notícias al hacer scroll
 
-## 1.1
-Implementación de un scroll bar indicator que consiste en una barra horizontal en cual te indica a que altura de la pagina estás
+## 1.5
+Cambiar el video por un carrousel porque no funcionaba el video en rawgit y cambiar la el nav por uno que se adapte mejor al móvil
 
-## 1.2
-En los rankings poner la clase .table-bordere para las tablas
+## 1.4
+Que carguen las notícias con un evento scroll y hacer el documento rss
 
 ## 1.3
 En la página de noticias y en la de presentación agregar un anuncio en el cual son 3 imagenes que se van rotando cada 2 segundos
 
-## 1.4
-Que carguen las noticias con un evento scroll y hacer el documento rss
+## 1.2
+En los rankings poner la clase .table-bordere para las tablas
+
+## 1.1
+Implementación de un scroll bar indicator que consiste en una barra horizontal en cual te indica a que altura de la pagina estás
+
+## 1.0
+Video de Presentación en la página de inicio
+
+
+
+
+
+
+
 
 
 ----------------------------------------------------------------------------------------------------------
