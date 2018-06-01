@@ -19,6 +19,14 @@
 
 
 
+## Errores encontrados en el proyecto
+
+    -No esta el texto justificado en las noticias y no estaba la etiqueta "p" en los párrafos de las noticias (Se ha corregido agregando la etiqueta "p" en los párrafos y poniendo la clase text-justify)
+    
+    -La descripcion de la página en la etiqueta meta es corta (Se ha arreglado alargando más la descripción).
+    
+    -En la pgina de noticia1.html no estaba la imagen redimensionada (Se ha arreglado agregando la clase image-responsive)
+
 ----------------------------------------------------------
 ## Primera ideal principal
 La primera visión de la Web es crear un página versátil y con modalidades para que el usuario puede acceder a todas las noticias de forma rápida y fácil.
