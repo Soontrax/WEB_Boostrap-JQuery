@@ -26,6 +26,9 @@
     -La descripcion de la página en la etiqueta meta es corta (Se ha arreglado alargando más la descripción).
     
     -En la pgina de noticia1.html no estaba la imagen redimensionada (Se ha arreglado agregando la clase image-responsive)
+    
+    -No hay un boton de activar y desactivar el scroll (Se ha arreglado haciendo una variable booleana en la cual cuando le das click se cambia a false y viceversa)
+    
 
 ----------------------------------------------------------
 ## Primera ideal principal
