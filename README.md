@@ -84,3 +84,4 @@ Video de Presentación en la página de inicio
 ![WEB](https://github.com/Soontrax/WEB_Boostrap-JQuery/blob/master/img/WEB.jpg)
 
 ## Link de la página [aquí](https://rawgit.com/Soontrax/WEB_Boostrap-JQuery/master/index.html)
+Como podemos ver en la imagen tenia ya una idea de donde estarian los elementos como la barra de navegacion que opciones tendrían, el contenido y su posicionamiento y al final unos videos de los aspirantes.
