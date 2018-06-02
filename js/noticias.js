@@ -1,5 +1,5 @@
-//Función Para el scrool bar indicator
 var flagScroll = true;
+//Función Para el scrool bar indicator
 var progressBar = function () {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -66,7 +66,6 @@ window.onload = function () {
       }
 
       $('#container').append(html);
-
       for (var i = 0; i <= 2; i++) {
         $($('.news')[i]).css('display', 'block');
       }
@@ -125,6 +124,7 @@ window.onload = function () {
     }
   });
 
+  //Funcion para activar las noticias con un boton y descativar el boton para cargar las noticias con scroll
   $(function () {
     $("#Activar").on("click", function () {
       if (flagScroll) {

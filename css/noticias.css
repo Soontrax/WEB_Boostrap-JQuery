@@ -38,6 +38,10 @@ img {
     position: absolute;
 }
 
+.thumbnail:hover{
+	transform: scale(1.01);
+	transition: all 0.2s ease;
+}
 
 .footer {
     float: left;
@@ -67,6 +71,13 @@ img {
 	color: white;
 	width: 43%;
 	font-size: 20px;
+}
+
+.twitter{
+	position: absolute;
+    width: 300px;
+    top: 400px;
+    left: 970px;
 }
 
 #Cargar{

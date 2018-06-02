@@ -26,6 +26,11 @@ html,body{
 	font-size: 20px;
 }
 
+.thumbnail:hover{
+	transform: scale(1.01);
+	transition: all 0.2s ease;
+}
+
 #Cargar{
 	margin-left: 45%;
     margin-top: 5%;
