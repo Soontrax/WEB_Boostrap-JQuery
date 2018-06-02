@@ -52,7 +52,7 @@ Versiones Minify :
 * __HTML Minify:__
 * __JSON :__
 * __RSS :__
-
+Y agregar animaciones en los col md-4 cuando pasas encima de ellos
 
 ## 1.6
 Poner un boton en el cual carguen solo las noticias al darle al boton cargar noticias y cuando se descative el boton que carguen las notícias al hacer scroll
