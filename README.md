@@ -20,14 +20,13 @@
 
 
 ## Errores encontrados en el proyecto
-
-    -No esta el texto justificado en las noticias y no estaba la etiqueta "p" en los párrafos de las noticias (Se ha corregido agregando la etiqueta "p" en los párrafos y poniendo la clase text-justify)
+* __No esta el texto justificado en las noticias y no estaba la etiqueta "p" en los párrafos de las noticias (Se ha corregido agregando la etiqueta "p" en los párrafos y poniendo la clase text-justify)__
+ 
+ * __La descripcion de la página en la etiqueta meta es corta (Se ha arreglado alargando más la descripción).__
     
-    -La descripcion de la página en la etiqueta meta es corta (Se ha arreglado alargando más la descripción).
+  * __En la pgina de noticia1.html no estaba la imagen redimensionada (Se ha arreglado agregando la clase image-responsive)__
     
-    -En la pgina de noticia1.html no estaba la imagen redimensionada (Se ha arreglado agregando la clase image-responsive)
-    
-    -No hay un boton de activar y desactivar el scroll (Se ha arreglado haciendo una variable booleana en la cual cuando le das click se cambia a false y viceversa)
+  * __No hay un boton de activar y desactivar el scroll (Se ha arreglado haciendo una variable booleana en la cual cuando le das click se cambia a false y viceversa)__
     Para entenderlo mejor voy a poner una imagen
    ![Link imagen](https://github.com/Soontrax/WEB_Boostrap-JQuery/blob/master/img/false-true.PNG)
 
