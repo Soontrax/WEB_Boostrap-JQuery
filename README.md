@@ -46,6 +46,13 @@ y tendrán una composición de cada 2 noticias
 -------------------------------------------------------------------------------------------------------
 
 # Versiones(Actualizaciones)
+## 1.7
+Versiones Minify :
+* __CSS  Minify:__
+* __HTML Minify:__
+* __JSON :__
+* __RSS :__
+
 
 ## 1.6
 Poner un boton en el cual carguen solo las noticias al darle al boton cargar noticias y cuando se descative el boton que carguen las notícias al hacer scroll
