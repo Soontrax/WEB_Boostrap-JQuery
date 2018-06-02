@@ -28,7 +28,8 @@
     -En la pgina de noticia1.html no estaba la imagen redimensionada (Se ha arreglado agregando la clase image-responsive)
     
     -No hay un boton de activar y desactivar el scroll (Se ha arreglado haciendo una variable booleana en la cual cuando le das click se cambia a false y viceversa)
-    
+    Para entenderlo mejor voy a poner una imagen
+   ![Link imagen](https://github.com/Soontrax/WEB_Boostrap-JQuery/blob/master/img/false-true.PNG)
 
 ----------------------------------------------------------
 ## Primera ideal principal
