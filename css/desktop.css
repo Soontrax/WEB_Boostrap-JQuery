@@ -26,15 +26,21 @@ html,body{
 	font-size: 20px;
 }
 
-
 #Cargar{
 	margin-left: 45%;
     margin-top: 5%;
 }
 
+#anuncioArriba{
+	display:none;
+}
+
 @media (max-width: 600px){
 	#imagen{
 		display:none;
+	}
+	#anuncioArriba{
+		display:block;
 	}
 }
 

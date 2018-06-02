@@ -25,6 +25,7 @@ a [1] = "img/anuncio2.jpg"
 a [2] = "img/anuncio3.jpg"
 
 function Funcion(){
+  $("#imagen2").attr("src" ,a[counter]);
 	$("#imagen").attr("src",a[counter]);
 	counter++;
 	if (counter==3) {

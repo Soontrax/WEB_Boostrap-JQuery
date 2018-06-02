@@ -13,7 +13,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Magra' rel='stylesheet'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta property="og:site_name" content="Tennis Warehouse">
-	<meta property="og:url" content="https://rawgit.com/Soontrax/WEB_Boostrap-JQuery/master/Noticias.html">
+	<meta property="og:url" content="https://rawgit.com/Soontrax/WEB_Boostrap-JQuery/master/index.html">
 	<meta property="og:title" content="Tennis Warehouse">
 	<meta property="og:image" content="https://raw.githubusercontent.com/Soontrax/WEB_Boostrap-JQuery/master/img/atp.ico">
 	<meta property="og:description" content="Ultimas noticias de tenis y mejores momentos.">
@@ -84,7 +84,12 @@
 						<a href="http://dimitrov-grigor.com/players/">Jugadores</a>
 					</li>
 				</ul>
+
 				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<button id="Activar" class="btn btn-danger navbar-btn">Desactivar Scroll</button>
+					</li>
+
 					<li>
 						<a href="#">
 							<span class="glyphicon glyphicon-user"></span> Sign Up</a>
@@ -107,25 +112,87 @@
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</div>-->
 
-
 	<div id="principal">
-		<div id="container" class="container-fluid">
-			<div class="Titulos">
-				<h3>Resultados</h3>
+		<div class="Titulos">
+			<h3>Resultados</h3>
+		</div>
+		<br>
+		<br>
+		<div class="container-fluid">
+			<div id="anuncioArriba" class="row">
+				<div class="col-md-6">
+					<img id="imagen2">
+				</div>
+				<div class="col-md-6">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="caption">
+							<div class="ribbon">
+								<span>
+									<span>Roma</span>
+								</span>
+							</div>
+							<h3 class="text-align: center">
+								<a href="pagina1.html">
+									<b>Nadal reconquista Roma</b>
+								</a>
+
+							</h3>
+							<img src="img/nadal.jpg" class="img-responsive">
+						</div>
+						<div class="caption">
+							<p class="text-justify">El mallorquín resuelve una situación límite en la final ante Zverev, por delante hasta que el agua forzó un doble
+								parón. Al final, 6-1, 1-6 y 6-3 (en 2h 09m), y el número uno de nuevo en manos del mallorquín
+							</p>
+							<p class="text-right">
+								<em>20/05/2018</em>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<div class="caption">
+							<div class="ribbon">
+								<span>
+									<span>Roland Garros</span>
+								</span>
+							</div>
+							<h3 class="text-align: center">
+								<a href="pagina2.html">
+									<b>Jaume Munar cae con dignidad contra Djokovic en Roland Garros</b>
+								</a>
+
+							</h3>
+							<img src="img/djokovic.jpg" class="img-responsive">
+						</div>
+						<div class="caption">
+							<p class="text-justify">El mallorquín resuelve una situación límite en la final ante Zverev, por delante hasta que el agua forzó un doble
+								parón. Al final, 6-1, 1-6 y 6-3 (en 2h 09m), y el número uno de nuevo en manos del mallorquín
+							</p>
+							<p class="text-right">
+								<em>20/05/2018</em>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div id="container" class="container-fluid">
+		</div>
 	</div>
-	</div>
-	<br>
-	<br>
 	<button id="mas" class="btn btn-lg btn-default active center-block">
 		Cargar Más Noticias
 	</button>
 
-	<div class="alert alert-danger alert-dismissible fade in text-center">
-		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-		<strong>No hay mas noticias</strong>
 	</div>
+	<br>
+	<br>
+
 	<!--Footer-->
 	<footer class="page-footer font-small stylish-color-dark pt-4 mt-4" style="background-color: peru">
 

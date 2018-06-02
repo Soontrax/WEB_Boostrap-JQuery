@@ -95,6 +95,18 @@ img {
   background: #0040FF;
   width: 0%;
 }
+#anuncioArriba{
+	display:none;
+}
+
+@media (max-width: 600px){
+	#imagen{
+		display:none;
+	}
+	#anuncioArriba{
+		display:block;
+	}
+}
 
 *,*:after, *:before{
 	margin: 0;
