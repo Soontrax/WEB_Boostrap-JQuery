@@ -25,6 +25,8 @@
  * __La descripcion de la página en la etiqueta meta es corta (Se ha arreglado alargando más la descripción).__
     
   * __En la página de noticia1.html no estaba la imagen redimensionada (Se ha arreglado agregando la clase image-responsive)__
+  
+  * __Los anuncios no se cambian de posición al cambiar de pantallo la pantalla(Se ha arreglado agregando una mediaquery)__
     
   * __No hay un boton de activar y desactivar el scroll (Se ha arreglado haciendo una variable booleana en la cual cuando le das click se cambia a false y viceversa)__
      Para entenderlo mejor voy a poner una imagen
@@ -57,6 +59,8 @@ Añadir un widget de twitter en las noticias debajo del anuncio que personalizad
 
 ## 1.6
 Poner un boton en el cual carguen solo las noticias al darle al boton cargar noticias y cuando se descative el boton que carguen las notícias al hacer scroll
+
+Arreglar los anuncios cuando llegan a un mínimo de porcentaje de pantalla y que se pongan arriba del todo
 
 ## 1.5
 Cambiar el video por un carrousel porque no funcionaba el video en rawgit y cambiar la el nav por uno que se adapte mejor al móvil
